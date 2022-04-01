@@ -1,3 +1,4 @@
+#Start
 import cv2
 import os
 cascPath=os.path.dirname(cv2.__file__)+"/data/haarcascade_frontalface_default.xml"
@@ -29,3 +30,4 @@ while True:
         break
 video_capture.release()
 cv2.destroyAllWindows()
+#End
